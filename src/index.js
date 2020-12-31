@@ -11,6 +11,7 @@ function component() {
 	// add Image
 	var myButy = new Image();
 	myButy.src = Buty
+	myButy.style.cssText = "width:200px;height:300px;"
 	element.appendChild(myButy)
 
 	return element
